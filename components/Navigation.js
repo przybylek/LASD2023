@@ -1,9 +1,11 @@
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import Image from 'react-bootstrap/Image'
 
 const Navigation = () => (
   <Navbar fixed='top' bg='light' expand='xl'>
-    <Navbar.Brand>LASD 2023</Navbar.Brand>
+    <Navbar.Brand><Image src='/acm.png' alt='ACM Logo' /></Navbar.Brand>
+    <Navbar.Brand>LASD@SAC 2023</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbar-nav" />
     <Navbar.Collapse id="navbar-nav">
       <Nav className="ml-auto">

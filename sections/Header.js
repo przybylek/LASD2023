@@ -1,5 +1,6 @@
 import Container from 'react-bootstrap/Container'
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import Image from 'react-bootstrap/Image'
 
 const Header = () => (
   <Jumbotron className='mt-5'>
@@ -7,7 +8,7 @@ const Header = () => (
     <div className="container">
         <div className="row align-items-center">
             <div className="col-md-6">
-                <img className="img-fluid" src="/Talin.jpg" />
+		<Image src="/Talin.jpg" alt='Talin' fluid />
             </div>
             <div className="col-md-6">
 	    	<a className='target' id='home'/>

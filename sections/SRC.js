@@ -5,7 +5,10 @@ const SRC = () => (
     <a className='target' id='src'/>
     <h2 className='display-4 anchor'>Student Research Competition (SRC)</h2>
     <p>
-      Graduate students are invited to submit research abstracts of their original unpublished and in-progress research work. Authors of selected abstracts will have the opportunity to share and discuss their research work through poster and oral presentations and compete for the three top winning places as selected by the SRC committee. The winners will receive cash awards and SIGAPP recognition certificates. Furthermore, invited authors are eligible to apply for the SIGAPP Student Travel Award Program (STAP) for support. SRC abstracts are limited to 4 pages and submitted via SAC 2023 Webpage. Please visit https://src.acm.org/ for more information.
+      Students are invited to submit research abstracts (maximum of 4 pages in ACM camera-ready format) following the instructions published at the SAC 2023 website.
+    </p>
+    <p>
+      Authors of selected abstracts will have the opportunity to give poster and oral presentations of their work and compete for three top-winning places. The SRC committee will evaluate and select First, Second, and Third place winners. The winners will receive medals and cash awards. Winners will be announced during the conference banquet. Invited students receive SRC travel support (US$500) and are eligible to apply to the SIGAPP Student Travel Award Program (STAP) for additional travel support.
     </p>
   </Container>
 )
