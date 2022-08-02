@@ -2,9 +2,10 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Container from 'react-bootstrap/Container'
 import Header from '../sections/Header'
+import About from '../sections/About'
 import Motivation from '../sections/Motivation'
 import PastConferences from '../sections/PastConferences'
-import AimsAndTopics from '../sections/AimsAndTopics'
+import Topics from '../sections/Topics'
 import Submissions from '../sections/Submissions'
 import SRC from '../sections/SRC'
 import ImportantDates from '../sections/ImportantDates'
@@ -27,8 +28,9 @@ export default function Home({ chairs, committee, reviewers }) {
       <Navigation />
 
       <Header />
+      <About />
       <Motivation />
-      <AimsAndTopics />
+      <Topics />
       <Submissions />
       <SRC />
       <ImportantDates />

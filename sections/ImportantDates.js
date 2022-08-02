@@ -4,14 +4,14 @@ import Row from 'react-bootstrap/Row'
 import styles from '../styles/ImportantDates.module.css'
 
 const ImportantDates = () => (
-  <Container className="section">
+  <Container className="bg-light section">
     <a className='target' id='dates'/>
-    <h2 className='display-4'>Important dates</h2>
+    <h2 className='display-4'>Important Dates</h2>
     <Row>
       <Col className="md-6">
         <ul className={styles.timeline}>
             <ScheduleDateItem date="2022-10-01" text="Paper submission"/>
-            <ScheduleDateItem date="2022-11-06" text="Reviews due"/>
+            <ScheduleDateItem date="2022-11-06" text="Reviews due date"/>
             <ScheduleDateItem date="2022-11-19" text="Author notification"/>
             <ScheduleDateItem date="2022-12-06" text="Camera-ready copies of accepted papers/SRC"/>
             <ScheduleDateItem date="2022-12-06" text="Author registration due date"/>

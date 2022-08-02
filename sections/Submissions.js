@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 const Submissions = () => (
-  <Container className='section'>
+  <Container className="bg-light section">
     <a className='target' id='submissions'/>
     <h2 className='display-4 anchor'>Submissions</h2>
     <p>

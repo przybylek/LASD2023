@@ -44,11 +44,10 @@ const conferences = [
 
 
 const PastConferences = () => (
-  <Container fluid="md" className='bg-light section'>
+  <Container fluid="md" className='section'>
 
     <a className='target' id='conferences'/>
-    <h2 className="display-4 anchor">Past Conferences</h2>
-    <p>LASD was founded in 2017 as a part of the <a href='https://fedcsis.org'>FedCSIS</a> multiconference. In 2021 and 2022, it was held as a standalone conference. Since 2023, it has joined ACM SAC as a track.</p>
+    <h2 className="display-4 anchor">Past Conferences</h2>    
     <Row className="justify-content-md-center m-1">
       {conferences.map(c => (
       <Col key={c.title} md='auto' className="m-2">

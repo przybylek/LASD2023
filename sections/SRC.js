@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container'
 
 const SRC = () => (
-  <Container className="bg-light section">
+  <Container className="section">
     <a className='target' id='src'/>
     <h2 className='display-4 anchor'>Student Research Competition (SRC)</h2>
     <p>

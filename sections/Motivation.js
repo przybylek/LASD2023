@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container'
 
 const Motivation = () => (
-  <Container className='section'>
+  <Container className="bg-light section">
     <a className='target' id='motivation'/>
     <h2 className='display-4 anchor'>Motivation</h2>
     <p>
