@@ -9,7 +9,7 @@ const Submissions = () => (
     <a className='target' id='submissions'/>
     <h2 className='display-4 anchor'>Submissions</h2>
     <p>
-      Research papers and experience reports related to the above topics are solicited. Papers should be submitted in the PDF format using the ACM-SAC proceedings <a href="http://www.sigapp.org/sac/sac2022/authorkit.html">format</a> via the START submission system. <strong>Full papers</strong> are limited to <strong>8 pages</strong> with the option (at an extra charge) to add 2 more pages.</p>
+      Research papers and experience reports related to the above topics are solicited. Papers should be submitted in the PDF format using the ACM-SAC proceedings <a href="https://www.sigapp.org/sac/sac2023/authorkit.html">format</a> via the START submission system. <strong>Full papers</strong> are limited to <strong>8 pages</strong> with the option (at an extra charge) to add 2 more pages.</p>
       <Row className="justify-content-center my-3">
         <Button className="btn-lg" href='https://www.softconf.com/m/sac2023'>Submit a paper</Button>
       </Row>
