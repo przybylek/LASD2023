@@ -5,9 +5,9 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 const Submissions = () => (
-  <Container className="bg-light section">
+  <Container className="bg-white section p-4 my-5">
     <a className='target' id='submissions'/>
-    <h2 className='display-4 anchor'>Submissions</h2>
+    <h2 className='display-4 anchor mb-3'>Submissions</h2>
     <p>
       Research papers and experience reports related to the above topics are solicited. Papers should be submitted in the PDF format using the ACM-SAC proceedings <a href="https://www.sigapp.org/sac/sac2023/authorkit.html">format</a> via the START submission system. <strong>Full papers</strong> are limited to <strong>8 pages</strong> with the option (at an extra charge) to add 2 more pages.</p>
       <Row className="justify-content-center my-3">
