@@ -2,7 +2,7 @@ import {countryCodes} from "./data/CountryCodes"
 import Flag from "./Flag"
 
 const PeopleList = ({ people }) => (
-  <ul className="fa-ul">
+  <ul className="fa-ul ml-1">
     {people.map((person) =>
       <li key={person.join()} className='my-2'>
         <div className="d-flex flex-row">
@@ -16,10 +16,10 @@ const PeopleList = ({ people }) => (
               </> : ''
           }
           <p className='mb-0 ml-2'>
-            <strong> {person.slice(0, 2).join(', ')}</strong>
+            <strong> {person.slice(0, 2).join(', ')}</strong><br/>
+            {person.slice(2).join(', ')}
           </p>
         </div>
-        {person.slice(2).join(', ')}
       </li>
     )}
   </ul>

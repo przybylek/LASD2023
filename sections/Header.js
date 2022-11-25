@@ -3,7 +3,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import Image from 'react-bootstrap/Image'
 
 const Header = () => (
-  <Jumbotron className='px-2 bg-light mb-5 pt-5'>
+  <Jumbotron className='px-2 mb-5 pt-5' style={{backgroundColor: '#f0f0f5'}}>
     <a className='target' id='home'/>
     <Container className="px-0 py-1">
       <div className="row align-items-center">

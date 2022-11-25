@@ -19,7 +19,7 @@ import { readCsv } from '../utils'
 
 export default function Home({ chairs, committee, reviewers }) {
   return (
-    <Container fluid className='px-0 bg-light'>
+    <Container fluid className='px-0' style={{backgroundColor: '#f0f0f5'}}>
       <Head>
         <title>LASD 2023</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossOrigin="anonymous"></link>
