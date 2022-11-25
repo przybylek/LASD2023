@@ -4,9 +4,9 @@ import Row from 'react-bootstrap/Row'
 import styles from '../styles/ImportantDates.module.css'
 
 const ImportantDates = () => (
-  <Container className="bg-light section">
+  <Container className="bg-white section p-4 my-5">
     <a className='target' id='dates'/>
-    <h2 className='display-4'>Important Dates</h2>
+    <h2 className='display-4 mb-3'>Important Dates</h2>
     <Row>
       <Col className="md-6">
         <ul className={styles.timeline}>
