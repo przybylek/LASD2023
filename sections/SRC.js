@@ -3,9 +3,9 @@ import Row from 'react-bootstrap/Row'
 import Button from 'react-bootstrap/Button'
 
 const SRC = () => (
-  <Container className="section">
+  <Container className="section p-4 bg-white my-5">
     <a className='target' id='src'/>
-    <h2 className='display-4 anchor'>Student Research Competition (SRC)</h2>
+    <h2 className='display-4 anchor mb-3'>Student Research Competition (SRC)</h2>
     <p>
       Students are invited to submit research abstracts (maximum of 4 pages in ACM camera-ready format) following the instructions published at the SAC 2023 website.
     </p>

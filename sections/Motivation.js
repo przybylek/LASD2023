@@ -1,9 +1,9 @@
 import Container from 'react-bootstrap/Container'
 
 const Motivation = () => (
-  <Container className="bg-light section">
+  <Container className="bg-white section p-4 my-5">
     <a className='target' id='motivation'/>
-    <h2 className='display-4 anchor'>Motivation</h2>
+    <h2 className='display-4 anchor mb-3'>Motivation</h2>
     <p>
       The evolution of software development methods is driven by the perennial quest on how to organize projects for better productivity. Plan-driven methods recommend spending much effort and resources to comprehensively capture all requirements and elaborate a big up-front design. Although they succeeded in projects where all properties of the software system could be specified in detail, they were unable to meet the dynamism, unpredictability and changing conditions that characterize today's competitive business environment. Thereby, traditional methods were superseded by lightweight methods based on iterative and incremental software development, frequent feedback from the customer, and an agile mindset. Agile methods have not only acknowledged that business requirements change, but also that customers are unable to definitively express their needs up front. Accordingly, agile teams start with a small set of core requirements to initiate the project and develop a working product. This working product becomes the basis for further discussions with the customer and new features are incrementally deliver on top of it. Later on, the software industry also started to adopt practices from lean manufacturing as a means of further waste elimination by removing all non-value-adding activities.
     </p>
