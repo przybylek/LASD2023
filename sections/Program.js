@@ -7,25 +7,58 @@ import React from 'react'
 import Clock from 'react-live-clock'
 
 const Program = () => (
-  <Container className="section p-4 bg-white my-5">
-    <a className='target' id='Program'/>
-    <h2 className='display-4 anchor mb-3'>Accepted Papers</h2>
-    <p>
-      TBA...
-    </p>
-  </Container>
+//      <Container className="section p-4 bg-white my-5">
+//        <a className='target' id='Program'/>
+//        <h2 className='display-4 anchor mb-3'>Accepted Papers</h2>
+//        <p>
+//          TBA...
+//        </p>
+//      </Container>
+
   /*********
   * Corrected Program.js from 2022. Comment Container above and uncomment container below when needed
   **********/
 
-//    <Container className="bg-white section p-4">
-//    <a className='target' id='program'/>
-//    <h2 className='display-4 anchor mb-3'>Program and Proceedings</h2>
+    <Container className="bg-white section p-4">
+    <a className='target' id='program'/>
+    <h2 className='display-4 anchor mb-3'>Program and Proceedings</h2>
+
+
+
+    <Table bordered className="mt-5">
+      <tbody>	
+        <tr className='text-center table-primary'><th>Saturday, March. 29</th><th>Full Paper Session</th></tr>
+        <tr><td className='text-nowrap'>11:00 - 11:05</td><td>Conference opening (<em>Adam Przybyłek</em>)</td></tr>
+        <tr><td className='text-nowrap'>11:05 - 11:20</td><td>Towards a Recommender System-Based Process for Managing Risks in Scrum Projects (<em>Ademar Sousa Neto, Felipe Ramos, Danyllo Albuquerque, Emanuel Dantas, Mirko Perkusich, Hyggo Almeida, Angelo Perkusich</em>)</td></tr>
+        <tr><td className='text-nowrap'>11:20 - 11:35</td><td>Tailoring Hybrid Software Processes in a Medium-Size Software Company  (<em>Jacqueline Marín, Julio Ariel Hurtado, María Cecilia Bastarrica, Luis Silvestre</em>)</td></tr>
+        <tr><td className='text-nowrap'>11:35 - 11:50</td><td>Challenges in Large-Scale Agile Software Development Projects (<em>Hina Saeeda, Muhammad Ovais Ahmad, Tomas Gustavsson</em>)</td></tr>
+        <tr><td className='text-nowrap'>11:50 - 12:05</td><td>An Exploratory Study about Non-functional Requirements Documentation Practices in Agile Teams (<em>Shahraz Nasir, Eduardo Guerra, Luciana Zaina, Jorge Melegati</em>)</td></tr>
+        <tr><td className='text-nowrap'>12:05 - 12:20</td><td>Which Challenges Do Exist with Agile Culture in Practice? (<em>Thorben Kuchel, Michael Neumann, Philipp Diebold, Eva-Maria Schön </em>)</td></tr>
+
+        <tr><th className='text-center table-secondary' colSpan={2}></th></tr>
+        <tr className='text-center table-primary'><th>Saturday, March. 29</th><th>Poster Session</th></tr>
+        <tr><td className='text-nowrap'>10:30 - 12:30 <br /> 14:30 - 16:30</td><td>
+          <ul>
+      <li>Agile GUI Testing by computing novel Mobile App Coverage Using Appium Tool  (<em>Sangharatna Godboley, Debasish Dalei, Ravichandra Sadam, Durga Prasad Mohapatr</em>)</li>
+      <li>Differences in Performance, Scalability, and Cost of Using Microservice and Monolithic Architecture (<em>Przemysław Jatkiewicz, Szymon Okrój</em>)</li>
+          </ul>
+        </td></tr>
+
+        <tr><th className='text-center table-secondary' colSpan={2}></th></tr>
+        <tr className='text-center table-primary'><th>Saturday, March. ??</th><th>Student Research Competition</th></tr>
+        <tr><td className='text-nowrap'>??</td><td>Why and Where Software Developers are (Not) using Project Data in Agile Retrospectives (<em>Leon Bein</em>)</td></tr>
+      </tbody>
+    </Table>
+  </Container>
+)
+
+export default Program
+
 
 //    <Row className="justify-content-center my-5">
 //      <Col xs lg="1"> 
 //      </Col>
-
+//
 //      <Col xs lg="2"> 
 //        <Image fluid src='/LNBIP_LASD22.jpg' alt='LNBIP_LASD22'/>
 //      </Col>
@@ -38,28 +71,14 @@ const Program = () => (
 //         <Clock 
 //           format={'HH:mm:ss'}
 //           ticking={true}
-//           className="mx-2"
-//         />
+//           className="mx-2" />
 //       </p>
 //      </Col>
-//      <Col xs lg="1"> 
+//     <Col xs lg="1"> 
 //      </Col>
 //    </Row> 
-//    <Table bordered>
-//      <tbody>	
-//        <tr className='text-center table-primary'><th>Saturday, Jan. 22</th><th>Session 1</th></tr>
-//    <tr><td className='text-nowrap'>11:05 - 11:10</td><td>Connectivity and Webex testing</td></tr>
-//        <tr><td className='text-nowrap'>11:10 - 11:20</td><td>Conference opening; <em>Adam Przybyłek</em></td></tr>
-//        <tr><td className='text-nowrap'>11:20 - 12:15</td><td>Promises of Model-Driven Development in an Agile Context; <em>Raman Ramsin</em></td></tr>
-//        <tr><td className='text-nowrap'>12:15 - 13:00</td><td>Q&A:
-//          <ul>
-//      <li><a href='https://youtu.be/N07nq7xH7g0'>How a 4-day Work Week and Remote Work affect Agile Software Development Teams</a><br /><em>Julia Topp, Jan Hendrik Hille, Michael Neumann and David Mötefindt</em></li>
-//      <li><a href='https://youtu.be/acn0UhbAIHM'>Modeling and model transformation as a service: Towards an agile approach to model-driven development</a><br /><em>Adel Vahdati and Raman Ramsin</em></li>
-//      <li><a href='https://drive.google.com/drive/folders/1-RtCBEX3ler-M6iLfXj0HhjXCAQ9yduV?usp=sharing'>Towards Agile Mutation Testing using Branch Coverage based Prioritization Technique</a><br /><em>Sangharatna Godboley and Durga Prasad Mohapatra</em></li>
-//      <li><a href='https://youtu.be/K_9SeOx5NWo'>Agility based Coverage Improvement</a><br /><em>Swadhin Kumar Barisal, Arpita Dutta, Sangharatna Godboley, Bibhudatta Sahoo and Durga Prasad Mohapatra</em></li>
-//      <li><a href='https://youtu.be/kKoVr_mh1lE'>A Complete Unit Test Framework for Agile Software Development</a><br /><em>Arpita Dutta</em></li>
-//          </ul>
-//        </td></tr>
+
+
 //        <tr><th className='text-center table-secondary' colSpan={2}>Break </th></tr>
 //        <tr className='text-center table-primary'><th>Saturday, Jan. 22</th><th>Session 2</th></tr>
 //        <tr><td className='text-nowrap'>14:00 - 14:55</td><td><a href='https://youtu.be/OJIz8aOGbHI'>Agility in Software 2.0 – Notebook Interfaces and MLOps with Buttresses and Rebars</a><br /><em>Markus Borg</em></td></tr>
@@ -78,10 +97,4 @@ const Program = () => (
 //      <li>Papers selected for post-conference publication in <a href="http://www.comsis.org">ComSIS</a> (IF: 1.167) and <a href="https://www.journals.elsevier.com/journal-of-computer-languages">Cola</a> (IF: 1.271)</li>
 //      <li>Other opportunities for 2022: <a href="http://www.acs.uns.ac.rs/adbis2022/">MADEISD@ADBIS</a>, <a href="https://www.fedcsis.org/2022/s3e">Track5@FedCSIS</a>, <a href="https://www.fedcsis.org/2022/mdasd">MDASD@FedCSIS</a>, <a href="https://www.fedcsis.org/2022/pers">PeRS@FedCSIS</a>, <a href="http://kes2022.kesinternational.org/cms/userfiles/is25.pdf">IADSDTP@KES</a> </li>		
 //      </ul></td></tr>
-//      </tbody>
-//    </Table>
-//  </Container>
-)
-
-export default Program
 
