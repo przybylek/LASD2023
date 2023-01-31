@@ -21,7 +21,7 @@ const Program = () => (
 
     <Container className="bg-white section p-4">
     <a className='target' id='program'/>
-    <h2 className='display-4 anchor mb-3'>Program and Proceedings</h2>
+    <h2 className='display-4 anchor mb-3'>Program</h2>
 
 
 
