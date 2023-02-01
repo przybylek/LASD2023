@@ -28,22 +28,22 @@ const Program = () => (
     <Table bordered className="mt-5">
       <tbody>	
 
-        <tr className='text-center table-primary'><th>Tuesday,<br /> March. 28</th><th>SRC Poster Exhibit</th></tr>
+        <tr className='text-center table-primary'><th>Tuesday,<br /> March. 28</th><th>SRC Poster Exhibit (room: A046)</th></tr>
         <tr><td className='text-nowrap'>14:00 - 16:00</td><td>Why and Where Software Developers are (Not) using Project Data in Agile Retrospectives (<em>Leon Bein</em>)</td></tr>
         <tr><th className='text-center table-secondary' colSpan={2}></th></tr>
 
-        <tr className='text-center table-primary'><th>Wednesday, March. 29</th><th>Full Paper Session</th></tr>
+        <tr className='text-center table-primary'><th>Wednesday, March. 29</th><th>Full Paper Session (room: A224)</th></tr>
         <tr><td className='text-nowrap'>11:00 - 11:05</td><td>Track opening (<em>Adam Przybyłek</em>)</td></tr>
-        <tr><td className='text-nowrap'>11:05 - 11:20</td><td>Towards a Recommender System-Based Process for Managing Risks in Scrum Projects (<em>Ademar Sousa Neto, Felipe Ramos, Danyllo Albuquerque, Emanuel Dantas, Mirko Perkusich, Hyggo Almeida, Angelo Perkusich</em>)</td></tr>
-        <tr><td className='text-nowrap'>11:20 - 11:35</td><td>Tailoring Hybrid Software Processes in a Medium-Size Software Company  (<em>Jacqueline Marín, Julio Ariel Hurtado, María Cecilia Bastarrica, Luis Silvestre</em>)</td></tr>
+        <tr><td className='text-nowrap'>11:05 - 11:20</td><td>An Exploratory Study about Non-functional Requirements Documentation Practices in Agile Teams (<em>Shahraz Nasir, Eduardo Guerra, Luciana Zaina, Jorge Melegati</em>)</td></tr>
+        <tr><td className='text-nowrap'>11:20 - 11:35</td><td>Which Challenges Do Exist with Agile Culture in Practice? (<em>Thorben Kuchel, Michael Neumann, Philipp Diebold, Eva-Maria Schön </em>)</td></tr>
         <tr><td className='text-nowrap'>11:35 - 11:50</td><td>Challenges in Large-Scale Agile Software Development Projects (<em>Hina Saeeda, Muhammad Ovais Ahmad, Tomas Gustavsson</em>)</td></tr>
-        <tr><td className='text-nowrap'>11:50 - 12:05</td><td>An Exploratory Study about Non-functional Requirements Documentation Practices in Agile Teams (<em>Shahraz Nasir, Eduardo Guerra, Luciana Zaina, Jorge Melegati</em>)</td></tr>
-        <tr><td className='text-nowrap'>12:05 - 12:20</td><td>Which Challenges Do Exist with Agile Culture in Practice? (<em>Thorben Kuchel, Michael Neumann, Philipp Diebold, Eva-Maria Schön </em>)</td></tr>
+        <tr><td className='text-nowrap'>11:50 - 12:05</td><td>Tailoring Hybrid Software Processes in a Medium-Size Software Company  (<em>Jacqueline Marín, Julio Ariel Hurtado, María Cecilia Bastarrica, Luis Silvestre</em>)</td></tr>
+        <tr><td className='text-nowrap'>12:05 - 12:20</td><td>Towards a Recommender System-Based Process for Managing Risks in Scrum Projects (<em>Ademar Sousa Neto, Felipe Ramos, Danyllo Albuquerque, Emanuel Dantas, Mirko Perkusich, Hyggo Almeida, Angelo Perkusich</em>)</td></tr>
 
         <tr><th className='text-center table-secondary' colSpan={2}></th></tr>
 
-        <tr className='text-center table-primary'><th>Wednesday, March. 29</th><th>Poster Exhibit</th></tr>
-        <tr><td className='text-nowrap'>10:30 - 12:30 <br /> 14:30 - 16:30</td><td>
+        <tr className='text-center table-primary'><th>Wednesday, March. 29</th><th>Poster Exhibit (room: A046)</th></tr>
+        <tr><td className='text-nowrap'>14:30 - 16:30</td><td>
           <ul>
       <li>Agile GUI Testing by computing novel Mobile App Coverage Using Appium Tool  (<em>Sangharatna Godboley, Debasish Dalei, Ravichandra Sadam, Durga Prasad Mohapatr</em>)</li>
       <li>Differences in Performance, Scalability, and Cost of Using Microservice and Monolithic Architecture (<em>Przemysław Jatkiewicz, Szymon Okrój</em>)</li>
