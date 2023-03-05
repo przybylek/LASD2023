@@ -7,7 +7,7 @@ import React from 'react'
 import Clock from 'react-live-clock'
 
 const Program = () => (
-//      <Container className="section p-4 bg-white my-5">
+//      <Container className="section p-4 bg-white my-5 rounded">
 //        <a className='target' id='Program'/>
 //        <h2 className='display-4 anchor mb-3'>Accepted Papers</h2>
 //        <p>

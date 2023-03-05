@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container'
 
 const About = () => (
-  <Container className="bg-white section p-4 mb-5">
+  <Container className="bg-white section p-4 mb-5 rounded">
     <a className='target' id='about'/>
     <h2 className="display-4 anchor mb-3">About</h2>
     <p>The international conference on Lean and Agile Software Development (LASD) was founded in 2017 as a part of the FedCSIS multiconference. The conference grew each year until 2020 when it noticed a substantial decline in the number of submissions. To remedy this issue, in 2021 and 2022, LASD was held as a standalone, free of charge conference. Recently, it has joined ACM SAC as a track.</p>
