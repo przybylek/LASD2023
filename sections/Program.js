@@ -19,7 +19,7 @@ const Program = () => (
   * Corrected Program.js from 2022. Comment Container above and uncomment container below when needed
   **********/
 
-    <Container className="bg-white section p-4">
+    <Container className="bg-white section p-4 rounded">
     <a className='target' id='program'/>
     <h2 className='display-4 anchor mb-3'>Program</h2>
 
@@ -34,11 +34,14 @@ const Program = () => (
 
         <tr className='text-center table-primary'><th>Wednesday, March. 29</th><th>Full Paper Session (room: A224)</th></tr>
         <tr><td className='text-nowrap'>11:00 - 11:05</td><td>Track opening (<em>Adam Przybyłek</em>)</td></tr>
-        <tr><td className='text-nowrap'>11:05 - 11:20</td><td>An Exploratory Study about Non-functional Requirements Documentation Practices in Agile Teams (<em>Shahraz Nasir, Eduardo Guerra, Luciana Zaina, Jorge Melegati</em>)</td></tr>
-        <tr><td className='text-nowrap'>11:20 - 11:35</td><td>Which Challenges Do Exist with Agile Culture in Practice? (<em>Thorben Kuchel, Michael Neumann, Philipp Diebold, Eva-Maria Schön </em>)</td></tr>
+
+        <tr><td className='text-nowrap'>11:05 - 11:20</td><td>Towards a Recommender System-Based Process for Managing Risks in Scrum Projects (<em>Ademar Sousa Neto, Felipe Ramos, Danyllo Albuquerque, Emanuel Dantas, Mirko Perkusich, Hyggo Almeida, Angelo Perkusich</em>)</td></tr>
+        <tr><td className='text-nowrap'>11:20 - 11:35</td><td>Tailoring Hybrid Software Processes in a Medium-Size Software Company  (<em>Jacqueline Marín, Julio Ariel Hurtado, María Cecilia Bastarrica, Luis Silvestre</em>)</td></tr>
         <tr><td className='text-nowrap'>11:35 - 11:50</td><td>Challenges in Large-Scale Agile Software Development Projects (<em>Hina Saeeda, Muhammad Ovais Ahmad, Tomas Gustavsson</em>)</td></tr>
-        <tr><td className='text-nowrap'>11:50 - 12:05</td><td>Tailoring Hybrid Software Processes in a Medium-Size Software Company  (<em>Jacqueline Marín, Julio Ariel Hurtado, María Cecilia Bastarrica, Luis Silvestre</em>)</td></tr>
-        <tr><td className='text-nowrap'>12:05 - 12:20</td><td>Towards a Recommender System-Based Process for Managing Risks in Scrum Projects (<em>Ademar Sousa Neto, Felipe Ramos, Danyllo Albuquerque, Emanuel Dantas, Mirko Perkusich, Hyggo Almeida, Angelo Perkusich</em>)</td></tr>
+        <tr><td className='text-nowrap'>11:50 - 12:05</td><td>An Exploratory Study about Non-functional Requirements Documentation Practices in Agile Teams (<em>Shahraz Nasir, Eduardo Guerra, Luciana Zaina, Jorge Melegati</em>)</td></tr>
+        <tr><td className='text-nowrap'>12:05 - 12:20</td><td>Which Challenges Do Exist with Agile Culture in Practice? (<em>Thorben Kuchel, Michael Neumann, Philipp Diebold, Eva-Maria Schön </em>)</td></tr>
+
+
 
         <tr><th className='text-center table-secondary' colSpan={2}></th></tr>
 
