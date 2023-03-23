@@ -38,8 +38,8 @@ const Program = () => (
         <tr><td className='text-nowrap'>11:05 - 11:20</td><td>Towards a Recommender System-Based Process for Managing Risks in Scrum Projects (<em>Ademar Sousa Neto, Felipe Ramos, Danyllo Albuquerque, Emanuel Dantas, Mirko Perkusich, Hyggo Almeida, Angelo Perkusich</em>)</td></tr>
         <tr><td className='text-nowrap'>11:20 - 11:35</td><td>Tailoring Hybrid Software Processes in a Medium-Size Software Company  (<em>Jacqueline Marín, Julio Ariel Hurtado, María Cecilia Bastarrica, Luis Silvestre</em>)</td></tr>
         <tr><td className='text-nowrap'>11:35 - 11:50</td><td>Challenges in Large-Scale Agile Software Development Projects (<em>Hina Saeeda, Muhammad Ovais Ahmad, Tomas Gustavsson</em>)</td></tr>
-        <tr><td className='text-nowrap'>11:50 - 12:05</td><td>An Exploratory Study about Non-functional Requirements Documentation Practices in Agile Teams (<em>Shahraz Nasir, Eduardo Guerra, Luciana Zaina, Jorge Melegati</em>)</td></tr>
-        <tr><td className='text-nowrap'>12:05 - 12:20</td><td>Which Challenges Do Exist with Agile Culture in Practice? (<em>Thorben Kuchel, Michael Neumann, Philipp Diebold, Eva-Maria Schön </em>)</td></tr>
+        <tr><td className='text-nowrap'>11:50 - 12:05</td><td><a href='https://youtu.be/9nUUGlhBwzc'>An Exploratory Study about Non-functional Requirements Documentation Practices in Agile Teams</a> (<em>Shahraz Nasir, Eduardo Guerra, Luciana Zaina, Jorge Melegati</em>)</td></tr>
+        <tr><td className='text-nowrap'>12:05 - 12:20</td><td>Which Challenges Do Exist with Agile Culture in Practice? (<em>Thorben Kuchel, Michael Neumann, Philipp Diebold, Eva-Maria Schön</em>)</td></tr>
 
 
 
