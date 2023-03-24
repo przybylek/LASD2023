@@ -39,8 +39,7 @@ const Program = () => (
         <tr><td className='text-nowrap'>11:20 - 11:35</td><td>Tailoring Hybrid Software Processes in a Medium-Size Software Company  (<em>Jacqueline Marín, Julio Ariel Hurtado, María Cecilia Bastarrica, Luis Silvestre</em>)</td></tr>
         <tr><td className='text-nowrap'>11:35 - 11:50</td><td>Challenges in Large-Scale Agile Software Development Projects (<em>Hina Saeeda, Muhammad Ovais Ahmad, Tomas Gustavsson</em>)</td></tr>
         <tr><td className='text-nowrap'>11:50 - 12:05</td><td><a href='https://youtu.be/9nUUGlhBwzc'>An Exploratory Study about Non-functional Requirements Documentation Practices in Agile Teams</a> (<em>Shahraz Nasir, Eduardo Guerra, Luciana Zaina, Jorge Melegati</em>)</td></tr>
-        <tr><td className='text-nowrap'>12:05 - 12:20</td><td>Which Challenges Do Exist with Agile Culture in Practice? (<em>Thorben Kuchel, Michael Neumann, Philipp Diebold, Eva-Maria Schön</em>)</td></tr>
-
+        <tr><td className='text-nowrap'>12:05 - 12:20</td><td><a href='https://youtu.be/0l6_pgq1eK8'>Which Challenges Do Exist with Agile Culture in Practice?</a> (<em>Thorben Kuchel, Michael Neumann, Philipp Diebold, Eva-Maria Schön</em>)</td></tr>
 
 
         <tr><th className='text-center table-secondary' colSpan={2}></th></tr>
