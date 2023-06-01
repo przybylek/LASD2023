@@ -17,12 +17,13 @@ const Header = () => (
           <h4 className='text-center h5'>March 27 - March 31, 2023</h4>
           <h4 className='text-center h5 pb-3'>Tallinn, Estonia</h4>
 
-/*
+ {/* Commenting the following section */}
+ {/*
             <h4 className='text-center h5'>
 		<span className='badge bg-warning p-2 m-1'><a className='u' href='https://pers.lasd.pl'>PeRS@ADBIS'23</a> (Barcelona)</span>
 		<span className='badge bg-warning p-2 m-3'><a className='u' href='https://kkio.lasd.pl'>KKIO@FedCSIS'23</a> (Warsaw)</span>
 	    </h4>
-*/
+  */}
         </div>
       </div>
     </Container>
